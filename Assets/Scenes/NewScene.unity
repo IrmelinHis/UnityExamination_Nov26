@@ -5637,6 +5637,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyable Rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
+      objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.0831623
@@ -7908,6 +7916,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyable Rock (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
+      objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.47226143
@@ -7969,6 +7985,14 @@ PrefabInstance:
     - target: {fileID: 2888752145789822306, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_Name
       value: Destroyable Rock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
       objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8327,6 +8351,7 @@ GameObject:
   - component: {fileID: 762448056}
   - component: {fileID: 762448058}
   - component: {fileID: 762448055}
+  - component: {fileID: 762448059}
   m_Layer: 0
   m_Name: Helpless Cat
   m_TagString: Untagged
@@ -8487,6 +8512,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &762448059
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762448054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f4431c01d1f9574ebfe2b8ecea74838, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &786087939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9864,6 +9911,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyable Rock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
+      objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.898115
@@ -10165,6 +10220,14 @@ PrefabInstance:
     - target: {fileID: 2888752145789822306, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_Name
       value: Destroyable Rock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
       objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10982,6 +11045,14 @@ PrefabInstance:
     - target: {fileID: 2888752145789822306, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_Name
       value: Destroyable Rock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1472129577}
+    - target: {fileID: 4011780799803795982, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
+      propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToCounter
       objectReference: {fileID: 0}
     - target: {fileID: 9050322174153856298, guid: ac5f9a37f374ae748acf7491c5fd1c85, type: 3}
       propertyPath: m_LocalPosition.x
